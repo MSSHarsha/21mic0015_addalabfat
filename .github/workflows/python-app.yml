@@ -36,5 +36,5 @@ jobs:
         pytest
     - name: Build the application
       run: |
-        chmod +x build.sh  # Ensure the script has executable permissions
-        ./build.sh  # Execute the custom build script
+        chmod +x build.sh 
+        ./build.sh  
